@@ -32,6 +32,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Acast/Snapfile">Snapfile</a> &bull;
   <a href="/Acast/screenshots/Framefile.json">Framefile</a>
 </p>
+
 ----
 
 ### [Timehop](https://timehop.com)
@@ -49,6 +50,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Timehop/">Overview</a> &bull;
   <a href="/Timehop/Fastfile">Fastfile</a>
 </p>
+
 ----
 
 ### [Fitbay](https://fitbay.com)
@@ -68,6 +70,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Fitbay/">Overview</a> &bull;
   <a href="/Fitbay/Fastfile">Fastfile</a>
 </p>
+
 ----
 
 ### [Fabric app](https://fabric.io/home)
@@ -86,6 +89,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Fabric/Snapfile">Snapfile</a> &bull;
   <a href="/Fabric/Appfile">Appfile</a>
 </p>
+
 ----
 
 ### [Artsy eidolon](https://github.com/artsy/eidolon)
@@ -103,6 +107,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Artsy/eidolon">Overview</a> &bull;
   <a href="/Artsy/eidolon/Fastfile">Fastfile</a>
 </p>
+
 ----
 
 ### [Wikipedia](https://github.com/wikimedia/apps-ios-wikipedia/) by Wikimedia Foundation
@@ -123,6 +128,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/Wikipedia/Appfile">Appfile</a> &bull;
   <a href="/Wikipedia/metadata/">Metadata</a>
 </p>
+
 ---
 
 ### [SoundCloud](https://www.soundcloud.com)
@@ -140,6 +146,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/SoundCloud">Overview</a> &bull;
   <a href="/SoundCloud/Fastfile">Fastfile</a>
 </p>
+
 ----
 
 ### [Firefox](https://github.com/mozilla/firefox-ios) by Mozilla
@@ -159,6 +166,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="https://github.com/mozilla/firefox-ios/blob/master/ClientUITests/snapshot/MarketingSnapshotTests.swift">SnapshotTests.swift</a> &bull;
   <a href="https://github.com/mozilla/firefox-ios-build-tools/tree/master/fastlane/actions">Custom Actions</a>
 </p>
+
 ----
 
 ### [MindNode](https://mindnode.com/)
@@ -183,6 +191,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/MindNode/screenshots/Framefile.json">Framefile.json</a> &bull;
   <a href="/MindNode/mac">MacScreenshots</a>
 </p>
+
 ----
 
 ### [Product Hunt](https://www.producthunt.com/apps/ios)
@@ -201,6 +210,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/ProductHunt/Deliverfile">Deliverfile</a> &bull;
   <a href="/ProductHunt/metadata">metadata</a>
 </p>
+
 ----
 
 
@@ -220,6 +230,7 @@ This repository contains a few `fastlane` example setups that help you getting s
   <a href="/BeMyEyes/Deliverfile">Deliverfile</a> &bull;
   <a href="/BeMyEyes/actions/get_global_value.rb">get_global_value</a>
 </p>
+
 ----
 
 ### [SunApps](https://sunapps.net)
@@ -244,6 +255,7 @@ A description on how the setup works is available in the [Overview](/SunApps).
   <a href="/SunApps/Appfile">Appfile</a> &bull;
   <a href="/SunApps/snapshot.js">snapshot.js</a>
 </p>
+
 ----
 
 ### [Touchwonders](http://touchwonders.com)
@@ -265,7 +277,34 @@ A description on how the setup works is available in the [Overview](/Touchwonder
   <a href="/Touchwonders/Fastfile">Fastfile</a> &bull;
   <a href="/Touchwonders/fastlane_config.yaml">Configuration file</a>
 </p>
+
 ----
+
+### [QuizUp](https://www.quizup.com)
+[![QuizUp](Logos/QuizUp.png)](https://www.quizup.com)
+
+:zap: **Advanced - Multiple Environments**
+
+- Deployment to iTunes Connect
+- Deployment to Hockey App
+- Running unit tests
+- Linting with Swiftlint
+- Managing Certificates/Provisioning Profiles
+- CI steps as lanes
+- Project setup
+- Version Bump & Git Actions
+- Slack Notifications
+- Custom action for internal translation tools
+- Custom action for versioning
+- Custom action for selecting changelogs
+
+<p align="center">
+  <a href="/QuizUp">Overview</a> &bull;
+  <a href="/QuizUp/Fastfile">Fastfile</a>
+</p>
+
+----
+
 
 ### [fastlane](https://fastlane.tools)
 [![fastlane Logo](Logos/fastlane.png)](https://fastlane.tools)
@@ -279,12 +318,30 @@ A description on how the setup works is available in the [Overview](/Touchwonder
 - Get GitHub Release
 
 <p align="center">
-  <a href="https://github.com/fastlane/fastlane/tree/master/fastlane/fastlane">Overview</a> &bull;
-  <a href="https://github.com/fastlane/fastlane/blob/master/fastlane/fastlane/Fastfile">Fastfile</a>
+  <a href="https://github.com/fastlane/fastlane/tree/master/fastlane">Overview</a> &bull; 
+  <a href="https://github.com/fastlane/fastlane/blob/master/fastlane/Fastfile">Fastfile</a>
 </p>
+
 ----
 
-If you like [fastlane](https://fastlane.tools) and would like to help this project by sharing your `Fastfile`, feel free to submit a pull request :+1:
+
+### [SHOP·COM](https://www.shop.com)
+[![fastlane Logo](Logos/SHOP.COM.png)](http://www.shop.com/mobile_app-v.xhtml)
+
+:bangbang: **Dual Platfrom Fastfile, Cordova project**
+
+- Configuration for both iOS and Android in the same Fastfile
+- Saves archives to a common build folder, sorted by date
+- Handles provisioning in a separate lane
+- Includes working configuration for building both iOS and Android native projects
+- Has configuration for CI (Jenkins) to auto release to Hockeyapp, and auto unlock the keychain
+
+<p align="center">
+  <a href="/Shop.com">Overview</a> &bull; 
+  <a href="/Shop.com/Fastfile">Fastfile</a>
+</p>
+
+----
 
 # Code of Conduct
 Help us keep `fastlane` open and inclusive. Please read and follow our [Code of Conduct](https://github.com/fastlane/code-of-conduct).
